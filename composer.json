@@ -1,6 +1,6 @@
 {
     "name": "robbieaverill/silverstripe-chec",
-    "description": "A SilverStripe 4 module which integrates with Chec",
+    "description": "A Silverstripe 4 module which integrates with Chec",
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "keywords": [
