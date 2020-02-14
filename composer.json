@@ -9,6 +9,7 @@
         "chec"
     ],
     "require": {
+        "php": "^7.3",
         "silverstripe/cms": "^4.5"
     },
     "require-dev": {
@@ -18,6 +19,12 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Robbie\\SilverstripeChec\\": "src/",
+            "Robbie\\SilverstripeChec\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
