@@ -28,7 +28,7 @@ class ChecShortcodeTest extends FunctionalTest
     {
         $text = $this->page->Content;
         $parsed = ShortcodeParser::get_active()->parse($text);
-        $this->assertContains('<a href="https://checkout.chec.io/1', $parsed);
+        $this->assertContains('<a href="https://checkout.chec.io/AbC1Y3', $parsed);
         $this->assertContains('">Buy Now', $parsed);
     }
 }

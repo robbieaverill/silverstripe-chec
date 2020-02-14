@@ -34,9 +34,9 @@ class ChecShortcode
      */
     public static function getBuyNowButton($arguments, $content = null): string
     {
-        if (isset($arguments['data-chec-product-id'])) {
-            $id = Convert::raw2att($arguments['data-chec-product-id']);
-            unset($arguments['data-chec-product-id']);
+        if (isset($arguments['permalink'])) {
+            $id = Convert::raw2att($arguments['permalink']);
+            unset($arguments['permalink']);
             $siteURL = self::config()->get('checkout_domain');
 
             $link = "<a href=\"$siteURL/{$id}\"";

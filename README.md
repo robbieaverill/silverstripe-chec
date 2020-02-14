@@ -38,11 +38,12 @@ Placing this before the closing body tag (e.g. `$ChecJavaScript</body>`) in eith
 The below short code should be placed in your the content section of your CMS page editor window:
 
 ```
-[BuyNowButton,data-chec-product-id="<your product id>",class="btn"]<your button text>[/BuyNowButton]
+[BuyNowButton,permalink="<your product permalink>"]<your button text>[/BuyNowButton]
 ```
 
-Replace `<your product id>` with your Chec product ID and `<your button text>` with the text you want displayed
-in your button/link.
+Replace `<your product permalink>` with your Chec product permalink and `<your button text>` with the text you want
+displayed in your button/link. You may also add a `class="..."` attribute to the permalink to control the classes
+added to the button when it is rendered.
 
 ## Maintainer
 
