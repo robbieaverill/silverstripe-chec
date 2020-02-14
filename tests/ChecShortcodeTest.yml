@@ -1,4 +1,4 @@
-SiteTree:
+SilverStripe\CMS\Model\SiteTree:
   test:
     URLSegment: test-page
     Title: Test Page
