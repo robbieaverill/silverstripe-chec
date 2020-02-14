@@ -37,7 +37,7 @@ class ChecExtensionTest extends SapphireTest
      */
     public function testGetChecJsIgnoresIfFalsy()
     {
-        ChecShortcode::config()->set('third-party-js', '');
+        ChecShortcode::config()->set('javascript_url', '');
         $result = $this->page->getChecJavaScript();
         $this->assertNotContains('<script type="text/javascript', $result);
     }
