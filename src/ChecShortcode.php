@@ -32,7 +32,7 @@ class ChecShortcode
      * @param string $content
      * @return string
      */
-    public static function BuyNowButton($arguments, $content = null): string
+    public static function getBuyNowButton($arguments, $content = null): string
     {
         if (isset($arguments['data-chec-product-id'])) {
             $id = Convert::raw2att($arguments['data-chec-product-id']);
