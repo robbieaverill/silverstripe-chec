@@ -8,7 +8,7 @@ use SilverStripe\View\Parsers\ShortcodeParser;
 
 class ChecShortcodeTest extends FunctionalTest
 {
-    protected static $fixture_file = 'ChecIOShortcodeTest.yml';
+    protected static $fixture_file = 'ChecShortcodeTest.yml';
 
     /**
      * @var SiteTree

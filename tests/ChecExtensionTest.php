@@ -9,7 +9,7 @@ use SilverStripe\Dev\SapphireTest;
 
 class ChecExtensionTest extends SapphireTest
 {
-    protected static $fixture_file = 'ChecIOShortcodeTest.yml';
+    protected static $fixture_file = 'ChecShortcodeTest.yml';
 
     /**
      * @var SiteTree&ChecExtension
