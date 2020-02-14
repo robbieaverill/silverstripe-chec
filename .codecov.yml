@@ -1,3 +1,1 @@
-comment: off
-codecov:
-  branch: master
+comment: false
